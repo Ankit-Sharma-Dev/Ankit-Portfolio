@@ -107,8 +107,7 @@
             </a>
           </span>
           <p className={styles.description}>
-            With a passion for developing modern  web apps for commercial
-            businesses.
+            A passionate software developer specializing in modern web applications. With expertise in Python, C, C++, HTML, CSS, JavaScript, React, and Node.js, creating innovative and efficient solutions. I am eager to tackle new challenges and drive impactful results
           </p>
           <a href={resume} download>
             <button className="hover">Resume</button>
