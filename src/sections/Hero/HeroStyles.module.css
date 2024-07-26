@@ -70,7 +70,36 @@
     flex-direction: column;
     gap: 20px;
 }
-
+.typewriter {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    height: 1.5em;  
+    overflow: hidden;
+  }
+  
+  .textWrapper {
+    display: inline-block;
+    position: relative;
+    color: #FC6D6D;
+    white-space: nowrap;
+  }
+  
+  .cursor {
+    display: inline-block;
+    position: relative;
+    color: #FC6D6D;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
 
 @media (width >= 800px) {
     .container {

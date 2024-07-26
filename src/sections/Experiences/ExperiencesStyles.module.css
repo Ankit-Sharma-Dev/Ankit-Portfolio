@@ -1,0 +1,135 @@
+/* Experiences.module.css */
+*{
+    font-family: 'Rubik';
+}
+.experiencesSection {
+    padding: 6rem 2rem;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .experiencesSection h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 2px;
+  }
+  
+  .experiencesContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .experienceItem {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    padding-left: 2rem;
+  }
+  
+  .experienceItem::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 4px;
+    height: 0;
+    background-color: #FC6D6D;
+    transition: height 0.5s ease, top 0.5s ease;
+  }
+  
+  .experienceItem:hover::before {
+    height: 100%;
+    top: 0;
+  }
+  
+  .logoContainer {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #2a2a2a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .experienceItem:hover .logoContainer {
+    transform: scale(1.05);
+  }
+  
+  .logo {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
+  
+  .content h3 {
+    font-size: 1.7rem;
+    color: #FC6D6D;
+    margin-bottom: 0.5rem;
+  }
+  
+  .content h4 {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .period {
+    font-size: 0.9rem;
+    color: #b0b0b0;
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  
+  .description {
+    /* font-family: 'Robot Mono'; */
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .skill {
+    background-color: rgba(252, 109, 109, 0.1);
+    color: lightgreen;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+  }
+  
+  .skill:hover {
+    background-color: #FC6D6D;
+    color: #1a1a1a;
+    transform: translateY(-2px);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .experienceItem {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 1rem;
+    }
+  
+    .logoContainer {
+      margin-bottom: 1rem;
+    }
+  }
