@@ -11,6 +11,7 @@
   import resume from '../../assets/resume.pdf';
   import { useTheme } from '../../common/ThemeContext';
   import React, { useState, useEffect } from 'react';
+// import Navbar from './Navbar';
 
  
 
@@ -72,6 +73,8 @@
     const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
     return (
+      <>
+      {/* <Navbar/> */}
       <section id="hero" className={styles.container}>
         <div className={styles.colorModeContainer}>
           <img
@@ -114,6 +117,7 @@
           </a>
         </div>
       </section>
+      </>
     );
   }
 
