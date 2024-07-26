@@ -107,7 +107,7 @@
             </a>
           </span>
           <p className={styles.description}>
-            A passionate software developer specializing in modern web applications.Creating innovative and efficient solutions. I am eager to tackle new challenges and drive impactful results
+            A passionate software developer specializing in modern web applications.Creating innovative and efficient solutions.
           </p>
           <a href={resume} download>
             <button className="hover">Resume</button>
