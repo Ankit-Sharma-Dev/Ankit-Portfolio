@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+    <Analytics/>
        <Hero/>
        <Projects/>
        <Experiences />
