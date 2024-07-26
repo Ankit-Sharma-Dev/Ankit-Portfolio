@@ -8,7 +8,7 @@
   import githubDark from '../../assets/github-dark.svg';
   import linkedinLight from '../../assets/linkedin-light.svg';
   import linkedinDark from '../../assets/linkedin-dark.svg';
-  import resume from '../../assets/resume.pdf';
+  import AnkitResume from '../../assets/AnkitResume.pdf';
   import { useTheme } from '../../common/ThemeContext';
   import React, { useState, useEffect } from 'react';
 // import Navbar from './Navbar';
@@ -112,7 +112,7 @@
           <p className={styles.description}>
             A passionate software developer specializing in modern web applications.Creating innovative and efficient solutions.
           </p>
-          <a href={resume} download>
+          <a href={AnkitResume} download>
             <button className="hover">Resume</button>
           </a>
         </div>
