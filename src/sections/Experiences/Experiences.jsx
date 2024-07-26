@@ -3,7 +3,9 @@ import React from 'react';
 import styles from './ExperiencesStyles.module.css';
 import int1 from '../../assets/int1.jpeg';
 import int2 from '../../assets/int2.jpeg';
+import { useTheme } from '../../common/ThemeContext';
 const Experiences = () => {
+    const { theme, toggleTheme } = useTheme();
     const experiences = [
       {
         title: "Software Engineering Fellow",

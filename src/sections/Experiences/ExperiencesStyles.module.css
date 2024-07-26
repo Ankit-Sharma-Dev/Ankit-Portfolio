@@ -11,7 +11,7 @@
     text-align: center;
     font-size: 3.5rem;
     margin-bottom: 4rem;
-    color: #fff;
+    color: var(--text-color);
     font-weight: 800;
     letter-spacing: 2px;
   }
@@ -79,11 +79,12 @@
     font-size: 1.7rem;
     color: #FC6D6D;
     margin-bottom: 0.5rem;
+     
   }
   
   .content h4 {
-    font-size: 1.2rem;
-    color: #ffffff;
+    font-size: 1.4rem;
+    color: var(--text-color);
     margin-bottom: 0.5rem;
   }
   
@@ -95,10 +96,10 @@
   }
   
   .description {
-    /* font-family: 'Robot Mono'; */
+    font-family: 'Robot Mono';
     margin-bottom: 1rem;
     line-height: 1.6;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   
   .skills {
