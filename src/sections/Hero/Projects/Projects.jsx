@@ -15,7 +15,10 @@ function Projects() {
   <div className={styles.projectsContainer}>
 
     {/* my project 1 */}
-    <ProjectCard src={netflix} link='https://github.com/Ankit-Sharma-Dev/Netflix-Clone' h3='Netflix Clone' p="Streaming App"/>
+    <ProjectCard src={netflix} 
+    link='https://github.com/Ankit-Sharma-Dev/Netflix-Clone' 
+    h3='Netflix Clone' 
+    p="Streaming App"/>
 
 {/* my project 2 */}
     <ProjectCard 
@@ -44,7 +47,7 @@ function Projects() {
     h3='Auction Platform' 
     p="Bidding App"/>
 
-    
+    {/* more to be added here */}
   </div>
   </section>
   );
